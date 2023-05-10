@@ -232,7 +232,7 @@ def wardial(hosts, **kwargs):
     for i, x in enumerate(result):
         if x:
             ans.append(hosts[i])
-    loop.close()
+    host_loop.close()
     return ans
 
 
